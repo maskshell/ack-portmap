@@ -2,6 +2,8 @@
 
 Add port mapping support for terway on Alibaba Cloud Container Service for Kubernetes (ACK).
 
+Work with terway, a CNI plugin for Alibaba Cloud VPC / Elastic Network Interface (ENI).
+
 ## Build Example
 
 ```shell
