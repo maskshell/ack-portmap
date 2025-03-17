@@ -1,0 +1,14 @@
+{
+    "extends": [
+        "config:recommended"
+    ],
+    "packageRules": [
+        {
+            "matchDatasources": ["github-tags"],
+            "matchPackageNames": ["containernetworking/plugins"],
+            "extractVersion": "^v(?<version>\\d+\\.\\d+\\.\\d+)$",
+            "fileMatch": ["Dockerfile"],
+            "replaceString": "ARG VERSION={{newVersion}}"
+        }
+    ]
+}
