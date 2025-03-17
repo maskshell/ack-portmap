@@ -2,7 +2,7 @@ FROM alpine AS downloader
 
 ARG TARGETOS=linux
 ARG TARGETARCH
-ARG VERSION=1.3.0
+ARG VERSION=1.6.2
 
 RUN apk add --no-cache wget
 
